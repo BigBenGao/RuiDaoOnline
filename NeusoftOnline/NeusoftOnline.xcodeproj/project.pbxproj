@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E064BFD1D9A528000F8768D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E064BFC1D9A528000F8768D /* MainViewController.m */; };
+		3E064C001D9A540D00F8768D /* StudyOnlineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E064BFF1D9A540D00F8768D /* StudyOnlineViewController.m */; };
+		3E064C041D9A56E700F8768D /* PositionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E064C031D9A56E700F8768D /* PositionModel.m */; };
+		3E064C071D9A5FE700F8768D /* PositionLessonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E064C061D9A5FE700F8768D /* PositionLessonViewController.m */; };
+		3E064C0D1D9A643E00F8768D /* PositionLessonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E064C0C1D9A643E00F8768D /* PositionLessonModel.m */; };
+		3E064C161D9A69C700F8768D /* examModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E064C151D9A69C700F8768D /* examModel.m */; };
+		3E19481C1DACAFEE0034FE89 /* OnlineTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E19481B1DACAFEE0034FE89 /* OnlineTestViewController.m */; };
+		3E19481E1DACB08E0034FE89 /* tiku.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E19481D1DACB08E0034FE89 /* tiku.plist */; };
+		3E864A3F1DAE1E32002FD031 /* LogoutTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E864A3E1DAE1E32002FD031 /* LogoutTableViewController.m */; };
+		3E93318E1D9E3297002C902C /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E93318C1D9E3297002C902C /* TableViewCell.m */; };
+		3E93318F1D9E3297002C902C /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E93318D1D9E3297002C902C /* TableViewCell.xib */; };
+		3E9331921D9E37CC002C902C /* LessonGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9331911D9E37CC002C902C /* LessonGuideViewController.m */; };
+		3E9331961D9E442A002C902C /* StudyOnlineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9331941D9E442A002C902C /* StudyOnlineCell.m */; };
+		3E9331971D9E442A002C902C /* StudyOnlineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E9331951D9E442A002C902C /* StudyOnlineCell.xib */; };
+		3EB15F701D98F2B100E54F38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB15F6F1D98F2B100E54F38 /* main.m */; };
+		3EB15F731D98F2B100E54F38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB15F721D98F2B100E54F38 /* AppDelegate.m */; };
+		3EB15F761D98F2B100E54F38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB15F751D98F2B100E54F38 /* ViewController.m */; };
+		3EB15F791D98F2B100E54F38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EB15F771D98F2B100E54F38 /* Main.storyboard */; };
+		3EB15F7B1D98F2B100E54F38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EB15F7A1D98F2B100E54F38 /* Assets.xcassets */; };
+		3EB15F7E1D98F2B100E54F38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EB15F7C1D98F2B100E54F38 /* LaunchScreen.storyboard */; };
+		3EB15F891D98F2B200E54F38 /* RuiDaoOnlineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB15F881D98F2B200E54F38 /* RuiDaoOnlineTests.m */; };
+		3EB15F941D98F2B200E54F38 /* RuiDaoOnlineUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB15F931D98F2B200E54F38 /* RuiDaoOnlineUITests.m */; };
+		3EB15FA31D990B9100E54F38 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB15FA21D990B9100E54F38 /* RegisterViewController.m */; };
+		3EC4CEBF1D9BB8DC0027D27B /* MYAFNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC4CEBE1D9BB8DC0027D27B /* MYAFNetWork.m */; };
+		3EF6E0A81DA8C14700D2BE07 /* LessonList.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF6E0A71DA8C14700D2BE07 /* LessonList.m */; };
+		3EF6E0AE1DA8C28100D2BE07 /* LessonListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF6E0AD1DA8C28100D2BE07 /* LessonListViewController.m */; };
+		3EF6E0B11DA8C7A300D2BE07 /* LessonDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF6E0B01DA8C7A300D2BE07 /* LessonDetailModel.m */; };
+		5E47B0C93D259C342B51D5BD /* libPods-NeusoftOnline.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2836C812EA66E7CE5CD8302C /* libPods-NeusoftOnline.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EB15F851D98F2B200E54F38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EB15F631D98F2B100E54F38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EB15F6A1D98F2B100E54F38;
+			remoteInfo = RuiDaoOnline;
+		};
+		3EB15F901D98F2B200E54F38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EB15F631D98F2B100E54F38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EB15F6A1D98F2B100E54F38;
+			remoteInfo = RuiDaoOnline;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C510F2A8A386E6C2C710F65 /* Pods-NeusoftOnline.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeusoftOnline.release.xcconfig"; path = "Pods/Target Support Files/Pods-NeusoftOnline/Pods-NeusoftOnline.release.xcconfig"; sourceTree = "<group>"; };
+		2836C812EA66E7CE5CD8302C /* libPods-NeusoftOnline.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NeusoftOnline.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		366DBD6C61877B5875C1B85B /* Pods-RuiDaoOnline.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuiDaoOnline.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RuiDaoOnline/Pods-RuiDaoOnline.debug.xcconfig"; sourceTree = "<group>"; };
+		3E064BFB1D9A528000F8768D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		3E064BFC1D9A528000F8768D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		3E064BFE1D9A540D00F8768D /* StudyOnlineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyOnlineViewController.h; sourceTree = "<group>"; };
+		3E064BFF1D9A540D00F8768D /* StudyOnlineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyOnlineViewController.m; sourceTree = "<group>"; };
+		3E064C021D9A56E700F8768D /* PositionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PositionModel.h; sourceTree = "<group>"; };
+		3E064C031D9A56E700F8768D /* PositionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PositionModel.m; sourceTree = "<group>"; };
+		3E064C051D9A5FE700F8768D /* PositionLessonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PositionLessonViewController.h; sourceTree = "<group>"; };
+		3E064C061D9A5FE700F8768D /* PositionLessonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PositionLessonViewController.m; sourceTree = "<group>"; };
+		3E064C0B1D9A643E00F8768D /* PositionLessonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PositionLessonModel.h; sourceTree = "<group>"; };
+		3E064C0C1D9A643E00F8768D /* PositionLessonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PositionLessonModel.m; sourceTree = "<group>"; };
+		3E064C141D9A69C700F8768D /* examModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = examModel.h; sourceTree = "<group>"; };
+		3E064C151D9A69C700F8768D /* examModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = examModel.m; sourceTree = "<group>"; };
+		3E19481A1DACAFEE0034FE89 /* OnlineTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnlineTestViewController.h; sourceTree = "<group>"; };
+		3E19481B1DACAFEE0034FE89 /* OnlineTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnlineTestViewController.m; sourceTree = "<group>"; };
+		3E19481D1DACB08E0034FE89 /* tiku.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tiku.plist; sourceTree = "<group>"; };
+		3E864A3D1DAE1E32002FD031 /* LogoutTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogoutTableViewController.h; sourceTree = "<group>"; };
+		3E864A3E1DAE1E32002FD031 /* LogoutTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogoutTableViewController.m; sourceTree = "<group>"; };
+		3E93318B1D9E3297002C902C /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		3E93318C1D9E3297002C902C /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		3E93318D1D9E3297002C902C /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		3E9331901D9E37CC002C902C /* LessonGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LessonGuideViewController.h; sourceTree = "<group>"; };
+		3E9331911D9E37CC002C902C /* LessonGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LessonGuideViewController.m; sourceTree = "<group>"; };
+		3E9331931D9E442A002C902C /* StudyOnlineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyOnlineCell.h; sourceTree = "<group>"; };
+		3E9331941D9E442A002C902C /* StudyOnlineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyOnlineCell.m; sourceTree = "<group>"; };
+		3E9331951D9E442A002C902C /* StudyOnlineCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StudyOnlineCell.xib; sourceTree = "<group>"; };
+		3EB15F6B1D98F2B100E54F38 /* NeusoftOnline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeusoftOnline.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EB15F6F1D98F2B100E54F38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3EB15F711D98F2B100E54F38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3EB15F721D98F2B100E54F38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3EB15F741D98F2B100E54F38 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3EB15F751D98F2B100E54F38 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3EB15F781D98F2B100E54F38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3EB15F7A1D98F2B100E54F38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EB15F7D1D98F2B100E54F38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3EB15F7F1D98F2B100E54F38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EB15F841D98F2B200E54F38 /* NeusoftOnlineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeusoftOnlineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EB15F881D98F2B200E54F38 /* RuiDaoOnlineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuiDaoOnlineTests.m; sourceTree = "<group>"; };
+		3EB15F8A1D98F2B200E54F38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EB15F8F1D98F2B200E54F38 /* NeusoftOnlineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeusoftOnlineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EB15F931D98F2B200E54F38 /* RuiDaoOnlineUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuiDaoOnlineUITests.m; sourceTree = "<group>"; };
+		3EB15F951D98F2B200E54F38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EB15FA11D990B9000E54F38 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		3EB15FA21D990B9100E54F38 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		3EC4CEBD1D9BB8DC0027D27B /* MYAFNetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYAFNetWork.h; sourceTree = "<group>"; };
+		3EC4CEBE1D9BB8DC0027D27B /* MYAFNetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYAFNetWork.m; sourceTree = "<group>"; };
+		3EF6E0A61DA8C14700D2BE07 /* LessonList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LessonList.h; sourceTree = "<group>"; };
+		3EF6E0A71DA8C14700D2BE07 /* LessonList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LessonList.m; sourceTree = "<group>"; };
+		3EF6E0AC1DA8C28100D2BE07 /* LessonListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LessonListViewController.h; sourceTree = "<group>"; };
+		3EF6E0AD1DA8C28100D2BE07 /* LessonListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LessonListViewController.m; sourceTree = "<group>"; };
+		3EF6E0AF1DA8C7A300D2BE07 /* LessonDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LessonDetailModel.h; sourceTree = "<group>"; };
+		3EF6E0B01DA8C7A300D2BE07 /* LessonDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LessonDetailModel.m; sourceTree = "<group>"; };
+		A9C2437AF22D0970459D25B8 /* Pods-NeusoftOnline.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeusoftOnline.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NeusoftOnline/Pods-NeusoftOnline.debug.xcconfig"; sourceTree = "<group>"; };
+		FDDD56427C388A88BC4A82A5 /* Pods-RuiDaoOnline.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuiDaoOnline.release.xcconfig"; path = "Pods/Target Support Files/Pods-RuiDaoOnline/Pods-RuiDaoOnline.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EB15F681D98F2B100E54F38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E47B0C93D259C342B51D5BD /* libPods-NeusoftOnline.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EB15F811D98F2B200E54F38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EB15F8C1D98F2B200E54F38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22B5A1341D86AFB32F7F9AE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2836C812EA66E7CE5CD8302C /* libPods-NeusoftOnline.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E064C011D9A56A600F8768D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3E064C021D9A56E700F8768D /* PositionModel.h */,
+				3E064C031D9A56E700F8768D /* PositionModel.m */,
+				3E064C0B1D9A643E00F8768D /* PositionLessonModel.h */,
+				3E064C0C1D9A643E00F8768D /* PositionLessonModel.m */,
+				3E064C141D9A69C700F8768D /* examModel.h */,
+				3E064C151D9A69C700F8768D /* examModel.m */,
+				3EF6E0A61DA8C14700D2BE07 /* LessonList.h */,
+				3EF6E0A71DA8C14700D2BE07 /* LessonList.m */,
+				3EF6E0AF1DA8C7A300D2BE07 /* LessonDetailModel.h */,
+				3EF6E0B01DA8C7A300D2BE07 /* LessonDetailModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3E9331871D9E323F002C902C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3E93318B1D9E3297002C902C /* TableViewCell.h */,
+				3E93318C1D9E3297002C902C /* TableViewCell.m */,
+				3E93318D1D9E3297002C902C /* TableViewCell.xib */,
+				3E9331931D9E442A002C902C /* StudyOnlineCell.h */,
+				3E9331941D9E442A002C902C /* StudyOnlineCell.m */,
+				3E9331951D9E442A002C902C /* StudyOnlineCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3EB15F621D98F2B100E54F38 = {
+			isa = PBXGroup;
+			children = (
+				3EB15F6D1D98F2B100E54F38 /* NeusoftOnline */,
+				3EB15F871D98F2B200E54F38 /* NeusoftOnlineTests */,
+				3EB15F921D98F2B200E54F38 /* NeusoftOnlineUITests */,
+				3EB15F6C1D98F2B100E54F38 /* Products */,
+				F95EA31496DB575CC019234C /* Pods */,
+				22B5A1341D86AFB32F7F9AE4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3EB15F6C1D98F2B100E54F38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EB15F6B1D98F2B100E54F38 /* NeusoftOnline.app */,
+				3EB15F841D98F2B200E54F38 /* NeusoftOnlineTests.xctest */,
+				3EB15F8F1D98F2B200E54F38 /* NeusoftOnlineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EB15F6D1D98F2B100E54F38 /* NeusoftOnline */ = {
+			isa = PBXGroup;
+			children = (
+				3EC4CEBD1D9BB8DC0027D27B /* MYAFNetWork.h */,
+				3EC4CEBE1D9BB8DC0027D27B /* MYAFNetWork.m */,
+				3E9331871D9E323F002C902C /* View */,
+				3EC4CE3B1D9BAD0B0027D27B /* Controller */,
+				3E064C011D9A56A600F8768D /* Model */,
+				3EB15F711D98F2B100E54F38 /* AppDelegate.h */,
+				3EB15F721D98F2B100E54F38 /* AppDelegate.m */,
+				3EB15F771D98F2B100E54F38 /* Main.storyboard */,
+				3EB15F7A1D98F2B100E54F38 /* Assets.xcassets */,
+				3EB15F7C1D98F2B100E54F38 /* LaunchScreen.storyboard */,
+				3EB15F7F1D98F2B100E54F38 /* Info.plist */,
+				3EB15F6E1D98F2B100E54F38 /* Supporting Files */,
+			);
+			path = NeusoftOnline;
+			sourceTree = "<group>";
+		};
+		3EB15F6E1D98F2B100E54F38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EB15F6F1D98F2B100E54F38 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3EB15F871D98F2B200E54F38 /* NeusoftOnlineTests */ = {
+			isa = PBXGroup;
+			children = (
+				3EB15F881D98F2B200E54F38 /* RuiDaoOnlineTests.m */,
+				3EB15F8A1D98F2B200E54F38 /* Info.plist */,
+			);
+			path = NeusoftOnlineTests;
+			sourceTree = "<group>";
+		};
+		3EB15F921D98F2B200E54F38 /* NeusoftOnlineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3EB15F931D98F2B200E54F38 /* RuiDaoOnlineUITests.m */,
+				3EB15F951D98F2B200E54F38 /* Info.plist */,
+			);
+			path = NeusoftOnlineUITests;
+			sourceTree = "<group>";
+		};
+		3EC4CE3B1D9BAD0B0027D27B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3EB15F741D98F2B100E54F38 /* ViewController.h */,
+				3EB15F751D98F2B100E54F38 /* ViewController.m */,
+				3E064BFB1D9A528000F8768D /* MainViewController.h */,
+				3E064BFC1D9A528000F8768D /* MainViewController.m */,
+				3E064BFE1D9A540D00F8768D /* StudyOnlineViewController.h */,
+				3E064BFF1D9A540D00F8768D /* StudyOnlineViewController.m */,
+				3E064C051D9A5FE700F8768D /* PositionLessonViewController.h */,
+				3E064C061D9A5FE700F8768D /* PositionLessonViewController.m */,
+				3EB15FA11D990B9000E54F38 /* RegisterViewController.h */,
+				3EB15FA21D990B9100E54F38 /* RegisterViewController.m */,
+				3E9331901D9E37CC002C902C /* LessonGuideViewController.h */,
+				3E9331911D9E37CC002C902C /* LessonGuideViewController.m */,
+				3EF6E0AC1DA8C28100D2BE07 /* LessonListViewController.h */,
+				3EF6E0AD1DA8C28100D2BE07 /* LessonListViewController.m */,
+				3E19481A1DACAFEE0034FE89 /* OnlineTestViewController.h */,
+				3E19481B1DACAFEE0034FE89 /* OnlineTestViewController.m */,
+				3E19481D1DACB08E0034FE89 /* tiku.plist */,
+				3E864A3D1DAE1E32002FD031 /* LogoutTableViewController.h */,
+				3E864A3E1DAE1E32002FD031 /* LogoutTableViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F95EA31496DB575CC019234C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				366DBD6C61877B5875C1B85B /* Pods-RuiDaoOnline.debug.xcconfig */,
+				FDDD56427C388A88BC4A82A5 /* Pods-RuiDaoOnline.release.xcconfig */,
+				A9C2437AF22D0970459D25B8 /* Pods-NeusoftOnline.debug.xcconfig */,
+				0C510F2A8A386E6C2C710F65 /* Pods-NeusoftOnline.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EB15F6A1D98F2B100E54F38 /* NeusoftOnline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EB15F981D98F2B200E54F38 /* Build configuration list for PBXNativeTarget "NeusoftOnline" */;
+			buildPhases = (
+				046E0DC4EF26D8590C399325 /* [CP] Check Pods Manifest.lock */,
+				3EB15F671D98F2B100E54F38 /* Sources */,
+				3EB15F681D98F2B100E54F38 /* Frameworks */,
+				3EB15F691D98F2B100E54F38 /* Resources */,
+				4A09503D9F24D5B8AFFF2C51 /* [CP] Embed Pods Frameworks */,
+				E61DF1EDA824D9A659D4C29C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeusoftOnline;
+			productName = RuiDaoOnline;
+			productReference = 3EB15F6B1D98F2B100E54F38 /* NeusoftOnline.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3EB15F831D98F2B200E54F38 /* NeusoftOnlineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EB15F9B1D98F2B200E54F38 /* Build configuration list for PBXNativeTarget "NeusoftOnlineTests" */;
+			buildPhases = (
+				3EB15F801D98F2B200E54F38 /* Sources */,
+				3EB15F811D98F2B200E54F38 /* Frameworks */,
+				3EB15F821D98F2B200E54F38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EB15F861D98F2B200E54F38 /* PBXTargetDependency */,
+			);
+			name = NeusoftOnlineTests;
+			productName = RuiDaoOnlineTests;
+			productReference = 3EB15F841D98F2B200E54F38 /* NeusoftOnlineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3EB15F8E1D98F2B200E54F38 /* NeusoftOnlineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EB15F9E1D98F2B200E54F38 /* Build configuration list for PBXNativeTarget "NeusoftOnlineUITests" */;
+			buildPhases = (
+				3EB15F8B1D98F2B200E54F38 /* Sources */,
+				3EB15F8C1D98F2B200E54F38 /* Frameworks */,
+				3EB15F8D1D98F2B200E54F38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EB15F911D98F2B200E54F38 /* PBXTargetDependency */,
+			);
+			name = NeusoftOnlineUITests;
+			productName = RuiDaoOnlineUITests;
+			productReference = 3EB15F8F1D98F2B200E54F38 /* NeusoftOnlineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EB15F631D98F2B100E54F38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = gao;
+				TargetAttributes = {
+					3EB15F6A1D98F2B100E54F38 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					3EB15F831D98F2B200E54F38 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3EB15F6A1D98F2B100E54F38;
+					};
+					3EB15F8E1D98F2B200E54F38 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3EB15F6A1D98F2B100E54F38;
+					};
+				};
+			};
+			buildConfigurationList = 3EB15F661D98F2B100E54F38 /* Build configuration list for PBXProject "NeusoftOnline" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EB15F621D98F2B100E54F38;
+			productRefGroup = 3EB15F6C1D98F2B100E54F38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EB15F6A1D98F2B100E54F38 /* NeusoftOnline */,
+				3EB15F831D98F2B200E54F38 /* NeusoftOnlineTests */,
+				3EB15F8E1D98F2B200E54F38 /* NeusoftOnlineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EB15F691D98F2B100E54F38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E19481E1DACB08E0034FE89 /* tiku.plist in Resources */,
+				3EB15F7E1D98F2B100E54F38 /* LaunchScreen.storyboard in Resources */,
+				3E93318F1D9E3297002C902C /* TableViewCell.xib in Resources */,
+				3EB15F7B1D98F2B100E54F38 /* Assets.xcassets in Resources */,
+				3E9331971D9E442A002C902C /* StudyOnlineCell.xib in Resources */,
+				3EB15F791D98F2B100E54F38 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EB15F821D98F2B200E54F38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EB15F8D1D98F2B200E54F38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		046E0DC4EF26D8590C399325 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4A09503D9F24D5B8AFFF2C51 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NeusoftOnline/Pods-NeusoftOnline-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E61DF1EDA824D9A659D4C29C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NeusoftOnline/Pods-NeusoftOnline-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EB15F671D98F2B100E54F38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E9331961D9E442A002C902C /* StudyOnlineCell.m in Sources */,
+				3E064C0D1D9A643E00F8768D /* PositionLessonModel.m in Sources */,
+				3EF6E0B11DA8C7A300D2BE07 /* LessonDetailModel.m in Sources */,
+				3E19481C1DACAFEE0034FE89 /* OnlineTestViewController.m in Sources */,
+				3E93318E1D9E3297002C902C /* TableViewCell.m in Sources */,
+				3E864A3F1DAE1E32002FD031 /* LogoutTableViewController.m in Sources */,
+				3EB15F761D98F2B100E54F38 /* ViewController.m in Sources */,
+				3EF6E0AE1DA8C28100D2BE07 /* LessonListViewController.m in Sources */,
+				3E064C071D9A5FE700F8768D /* PositionLessonViewController.m in Sources */,
+				3E9331921D9E37CC002C902C /* LessonGuideViewController.m in Sources */,
+				3E064C001D9A540D00F8768D /* StudyOnlineViewController.m in Sources */,
+				3EC4CEBF1D9BB8DC0027D27B /* MYAFNetWork.m in Sources */,
+				3EB15F731D98F2B100E54F38 /* AppDelegate.m in Sources */,
+				3E064C041D9A56E700F8768D /* PositionModel.m in Sources */,
+				3EB15F701D98F2B100E54F38 /* main.m in Sources */,
+				3EF6E0A81DA8C14700D2BE07 /* LessonList.m in Sources */,
+				3E064BFD1D9A528000F8768D /* MainViewController.m in Sources */,
+				3E064C161D9A69C700F8768D /* examModel.m in Sources */,
+				3EB15FA31D990B9100E54F38 /* RegisterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EB15F801D98F2B200E54F38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EB15F891D98F2B200E54F38 /* RuiDaoOnlineTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EB15F8B1D98F2B200E54F38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EB15F941D98F2B200E54F38 /* RuiDaoOnlineUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EB15F861D98F2B200E54F38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EB15F6A1D98F2B100E54F38 /* NeusoftOnline */;
+			targetProxy = 3EB15F851D98F2B200E54F38 /* PBXContainerItemProxy */;
+		};
+		3EB15F911D98F2B200E54F38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EB15F6A1D98F2B100E54F38 /* NeusoftOnline */;
+			targetProxy = 3EB15F901D98F2B200E54F38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3EB15F771D98F2B100E54F38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EB15F781D98F2B100E54F38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3EB15F7C1D98F2B100E54F38 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EB15F7D1D98F2B100E54F38 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EB15F961D98F2B200E54F38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EB15F971D98F2B200E54F38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EB15F991D98F2B200E54F38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9C2437AF22D0970459D25B8 /* Pods-NeusoftOnline.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NeusoftOnline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gao.NeusoftOnline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3EB15F9A1D98F2B200E54F38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C510F2A8A386E6C2C710F65 /* Pods-NeusoftOnline.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NeusoftOnline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gao.NeusoftOnline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3EB15F9C1D98F2B200E54F38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RuiDaoOnlineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gao.RuiDaoOnlineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeusoftOnline.app/NeusoftOnline";
+			};
+			name = Debug;
+		};
+		3EB15F9D1D98F2B200E54F38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RuiDaoOnlineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gao.RuiDaoOnlineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeusoftOnline.app/NeusoftOnline";
+			};
+			name = Release;
+		};
+		3EB15F9F1D98F2B200E54F38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RuiDaoOnlineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gao.RuiDaoOnlineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RuiDaoOnline;
+			};
+			name = Debug;
+		};
+		3EB15FA01D98F2B200E54F38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RuiDaoOnlineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gao.RuiDaoOnlineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RuiDaoOnline;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EB15F661D98F2B100E54F38 /* Build configuration list for PBXProject "NeusoftOnline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EB15F961D98F2B200E54F38 /* Debug */,
+				3EB15F971D98F2B200E54F38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EB15F981D98F2B200E54F38 /* Build configuration list for PBXNativeTarget "NeusoftOnline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EB15F991D98F2B200E54F38 /* Debug */,
+				3EB15F9A1D98F2B200E54F38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EB15F9B1D98F2B200E54F38 /* Build configuration list for PBXNativeTarget "NeusoftOnlineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EB15F9C1D98F2B200E54F38 /* Debug */,
+				3EB15F9D1D98F2B200E54F38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EB15F9E1D98F2B200E54F38 /* Build configuration list for PBXNativeTarget "NeusoftOnlineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EB15F9F1D98F2B200E54F38 /* Debug */,
+				3EB15FA01D98F2B200E54F38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EB15F631D98F2B100E54F38 /* Project object */;
+}

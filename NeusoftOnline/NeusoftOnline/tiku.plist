@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>变量的指针，其含义是指该变量的_____</string>
+		<string>值</string>
+		<string>地址</string>
+		<string>名</string>
+		<string>一个标志</string>
+		<string>2</string>
+	</array>
+	<array>
+		<string>表达式: 10!=9的值是____________</string>
+		<string>true</string>
+		<string>非零值</string>
+		<string>0</string>
+		<string>1</string>
+		<string>4</string>
+	</array>
+	<array>
+		<string>C语言提供的合法的数据类型关键字是 ___</string>
+		<string>Double</string>
+		<string>short</string>
+		<string>integer</string>
+		<string>Char</string>
+		<string>2</string>
+	</array>
+	<array>
+		<string>C语言程序的基本单位是___________</string>
+		<string>程序行</string>
+		<string>语句</string>
+		<string>函数</string>
+		<string>字符</string>
+		<string>3</string>
+	</array>
+	<array>
+		<string>下列四个叙述中,错误的是:__________</string>
+		<string>一个C源程序必须有且只能有一个主函数</string>
+		<string>一个C源程序可以有多个函数</string>
+		<string> 在C源程序中注释说明必须位于语句之后</string>
+		<string>C源程序的基本结构是函数</string>
+		<string>3</string>
+	</array>
+	<array>
+		<string>下面不是C语言合法标识符的是:__________</string>
+		<string>abc</string>
+		<string>5n</string>
+		<string>_4m</string>
+		<string>x3</string>
+		<string>2</string>
+	</array>
+	<array>
+		<string>C语言中允许的基本数据类型包括:_____</string>
+		<string>整型、实型、逻辑型</string>
+		<string>整型、实型、字符型</string>
+		<string>整型、字符型、逻辑型</string>
+		<string>整型、实型、逻辑型、字符型 </string>
+		<string>2</string>
+	</array>
+	<array>
+		<string>C语言中能用八进制表示的数据类型为:______</string>
+		<string>字符型、整型</string>
+		<string>整形、实型</string>
+		<string>字符型、实型、双精度型 </string>
+		<string>字符型、整型、实型、双精度型</string>
+		<string>1</string>
+	</array>
+	<array>
+		<string>下列属于C语言合法的字符常数是:__________</string>
+		<string>&apos;\97&apos;</string>
+		<string>&quot;A&quot;</string>
+		<string>&apos;\t&apos;</string>
+		<string>&quot;\0&quot;</string>
+		<string>3</string>
+	</array>
+	<array>
+		<string>以下合法的赋值语句是:________</string>
+		<string>x=y=100</string>
+		<string>d--;</string>
+		<string>x+y</string>
+		<string>c = int (a + b);</string>
+		<string>2</string>
+	</array>
+</array>
+</plist>
